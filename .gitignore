@@ -1,0 +1,12 @@
+*.iml
+Android/.gradle
+Android/local.properties
+Android/.idea/libraries
+Android/.idea/modules.xml
+Android/.idea/workspace.xml
+Android/.DS_Store
+Android/build
+Android/captures
+Android/.externalNativeBuild
+
+Django/myvenv/
