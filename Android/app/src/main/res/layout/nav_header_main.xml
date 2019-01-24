@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/colorMainDark"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="30dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/img_hiphop"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="BurgerKing"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center|left"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
